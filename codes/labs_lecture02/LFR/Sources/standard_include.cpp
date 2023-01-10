@@ -1,29 +1,24 @@
 #if !defined(STANDARD_INCLUDE_INCLUDED)
-#define STANDARD_INCLUDE_INCLUDED	
+#define STANDARD_INCLUDE_INCLUDED
 
-
-#include <math.h>
-#include <iostream>
-#include <deque>
-#include <set>
-#include <vector>
-#include <map>
-#include <string> 
-#include <fstream>
-#include <ctime>
-#include <iterator>
 #include <algorithm>
-
-
+#include <ctime>
+#include <deque>
+#include <fstream>
+#include <iostream>
+#include <iterator>
+#include <map>
+#include <math.h>
+#include <set>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-
-#include "print.cpp"
-#include "random.cpp"
+#include "cast.cpp"
 #include "combinatorics.cpp"
 #include "histograms.cpp"
-#include "cast.cpp"
-
+#include "print.cpp"
+#include "random.cpp"
 
 #endif
